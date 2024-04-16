@@ -1,0 +1,11 @@
+.container {
+  margin-top: 1rem;
+  background-color: #fff;
+  height: auto;
+  overflow-y: auto;
+  color: #000;
+  max-height: 30vh;
+  border-radius: 1rem;
+  padding: 0 0.75rem;
+  width: 38vw;
+}

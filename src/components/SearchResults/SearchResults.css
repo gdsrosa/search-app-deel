@@ -1,0 +1,10 @@
+.container__item {
+  margin: 0.75rem auto;
+  padding: 0.5rem;
+}
+
+.container__item:hover {
+  background-color: #f0f2f4;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
