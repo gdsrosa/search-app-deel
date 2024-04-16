@@ -1,3 +1,24 @@
-#root {
-  margin: 0 auto;
+.wrapper {
+  margin: auto 30px;
+}
+
+.title {
+  color: #222222;
+}
+
+.search {
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 0.75rem;
+  border: 2px solid #f0f2f4;
+  width: 40vw;
+  outline: none;
+}
+
+.form {
+  padding-bottom: 0.5rem;
+}
+
+.error__input {
+  border: 2px solid #fa4d4d;
 }
