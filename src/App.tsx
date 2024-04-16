@@ -44,6 +44,7 @@ function App() {
 
         <form className="form" onSubmit={e => e.preventDefault()}>
           <input
+            data-testid="search-username"
             className={`search ${classname}`}
             type="search"
             name="search"

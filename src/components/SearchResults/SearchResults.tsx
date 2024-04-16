@@ -15,6 +15,7 @@ function SearchResults({ results, handleClick }: SearchResultsProps) {
     <Fragment>
       {results?.map(user => (
         <p
+          data-testid="usernames-result"
           className="container__item"
           key={user.id}
           onClick={() => handleClick(user.name)}

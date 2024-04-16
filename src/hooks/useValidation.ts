@@ -6,7 +6,7 @@ const validations = {
     message: 'Minimum 2 characters required',
   },
   maxLength: {
-    message: 'Maximum of 20 characters exceeded',
+    message: 'Maximum of 30 characters exceeded',
   },
 };
 
@@ -16,7 +16,7 @@ export function useValidation(query: string) {
 
   useEffect(() => {
     const classNameError: string = 'error__input';
-    const maxLength: number = 20;
+    const maxLength: number = 30;
     const minLength: number = 2;
     const isQueryEmpty: boolean = query.length === 0;
 
