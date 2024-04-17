@@ -1,6 +1,6 @@
 # Search App Deel
 
-An application to search that autocompletes the search value.
+A Search application with Autocomplete features. You can find the deployed version of this app at this [link](https://search-app-deel.vercel.app/).
 
 ## Getting Started
 
@@ -23,8 +23,8 @@ npm install
 
 ## Setup env vars
 
-To make sure you have all the env vars configured on your side, please go to `.env` file and add the API endpoint
-Note: Is encourage to create a `.env.local` file and execute the same step
+To make sure you have all the env vars configured on your side, please go to `.env` file and add the API endpoint.
+Note: It is encouraged to create a `.env.local` file and execute the same step.
 
 ```zsh
   # on the .env
@@ -33,7 +33,7 @@ Note: Is encourage to create a `.env.local` file and execute the same step
 
 ## Running the application in development mode
 
-To start your local webpack-dev-server run:
+To start your local dev-server run:
 
 ```zsh
 npm run dev
