@@ -49,7 +49,7 @@ function App() {
             type="search"
             name="search"
             id="search"
-            placeholder="i.e. Pablo Ruecker"
+            placeholder="e.g. Pablo Ruecker"
             value={query}
             onChange={handleQueryChange}
             required
