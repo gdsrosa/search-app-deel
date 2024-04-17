@@ -1,30 +1,61 @@
-# React + TypeScript + Vite
+# Adopt Me
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An application to search that autocompletes the search value.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes, to do so clone this repo:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```zsh
+git clone https://github.com/gdsrosa/search-app-deel.git
+cd search-app-deel
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installing
+
+Assuming you have all the Node.js (20+) and NPM (version 10+) environment setup in your machine:
+
+Let's install the dependencies
+
+```zsh
+npm install
+```
+
+## Setup env vars
+
+To make sure you have all the env vars configured on your side, please go to `.env` file and add the API endpoint
+Note: Is encourage to create a `.env.local` file and execute the same step
+
+```zsh
+  # on the .env
+  VITE_API_ENDPOINT=https://661d327ee7b95ad7fa6c7d8b.mockapi.io/api/users
+```
+
+## Running the application in development mode
+
+To start your local webpack-dev-server run:
+
+```zsh
+npm run dev
+```
+
+## Running the tests
+
+To execute the unit tests:
+
+```zsh
+npm test
+```
+
+## Built With
+
+- [Typescript](https://www.typescriptlang.org/) - The programming language used for the Client
+- [React.js](https://reactjs.org/) - The UI library used for the Client
+- [NPM](http://npmjs.org) - Dependency Management
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Styles Management
+- [Vite](https://vitejs.dev/) - Frontend Tooling
+- [Vitest](https://vitest.dev/) - JavaScript Unit Test tool
+
+## Authors
+
+- **Gabriel Rosa** - [gdsrosa](https://github.com/gdsrosa)
