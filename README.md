@@ -1,4 +1,4 @@
-# Adopt Me
+# Search App Deel
 
 An application to search that autocompletes the search value.
 
